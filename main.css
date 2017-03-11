@@ -1,0 +1,112 @@
+  #g1 {
+    z-index: 6;
+    position: absolute;
+	top: 45%;
+	left: 45%;
+	size: 80%
+  }
+  #g2 {
+
+    z-index: 6;
+    position: absolute;
+	top: 55%;
+	left: 30%;
+	font-size: 20px;
+	color: white;
+
+}
+  #g3 {
+
+    z-index: 6;
+    position: absolute;
+	top: 55%;
+	left: 60%;
+	font-size: 30px;
+	color: #e6e6e6;
+
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#g4 {
+ 	z-index: 5;
+	display: none;
+	font-size: 19px;
+	color: white
+}
+
+
+#g5 {
+ 	z-index: 5;
+	display: none;
+
+}
+
+#g6 {
+ 	z-index: 4;
+	display: none;
+
+}
+
+
+.panel-body
+{
+	margin: 0 auto;
+    height: 550px;
+	
+}
+
+
+#g0 {
+	max-height: 100%;
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    #g2,#g3 { font-size: 25px; }
+	 #g1 { left: 45%; }
+	 
+.panel-body
+{
+	margin: 0;
+    height: 330px;
+}
+
+#g0 {
+	max-height: 100%;
+    max-width: 100%;
+}
+
+}
+
+.panel-default > .panel-heading {
+  background-color: black!important;
+  color: white!important;
+}
+
+.panel-default > .panel-footer {
+  background-color: black!important;
+  color: white!important;
+}
+
+.panel-default > .panel-body {
+  text-align:center;
+  background-color: #909090;
+}
+
+
+ .img-circle {
+		width: 50px;
+        border-radius: 50%;
+ }
+ 
+ .img-kotak {
+		width: 50px;
+        border-radius: 10%;
+ }
