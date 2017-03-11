@@ -1,0 +1,2 @@
+# lpnews
+Landing Page
